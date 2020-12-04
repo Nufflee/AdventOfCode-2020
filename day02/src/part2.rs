@@ -1,13 +1,12 @@
 use super::parser::Policy;
 
-pub fn solution(lines: &[&str]) -> usize {
-  lines
+pub fn solution(policies: &[Policy]) -> usize {
+  policies
     .iter()
-    .filter(|line| {
-      let parsed = Policy::parse(line).unwrap();
-      let chars: Vec<_> = parsed.password.chars().collect();
+    .filter(|policy| {
+      let chars: Vec<_> = policy.password.chars().collect();
 
-      return (chars[parsed.range.start() - 1] == parsed.char) ^ (chars[parsed.range.end() - 1] == parsed.char);
+      return (chars[policy.range.start() - 1] == policy.char) ^ (chars[policy.range.end() - 1] == policy.char);
     })
     .count()
 }

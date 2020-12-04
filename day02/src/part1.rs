@@ -1,10 +1,9 @@
 use super::parser::Policy;
 
-pub fn solution(lines: &[&str]) -> usize {
-  lines
+pub fn solution(policies: &[Policy]) -> usize {
+  policies
     .iter()
-    .filter(|line| {
-      let policy = Policy::parse(line).unwrap();
+    .filter(|policy| {
       let occurences = policy.password.matches(policy.char).count();
 
       policy.range.contains(&occurences)

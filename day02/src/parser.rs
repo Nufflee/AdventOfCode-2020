@@ -1,4 +1,5 @@
-use std::ops::RangeInclusive;
+use std::str::FromStr;
+use std::{num::ParseIntError, ops::RangeInclusive};
 
 pub struct Policy {
   // Inspired by https://github.com/silen-z/advent-of-code/blob/main/src/2020/day02.rs#L26
@@ -7,17 +8,25 @@ pub struct Policy {
   pub password: String,
 }
 
-impl Policy {
-  pub fn parse(string: &str) -> Option<Self> {
-    let dash_index = string.find('-')?;
-    let space_index = string.find(' ')?;
-    let colon_index = string.find(':')?;
+impl FromStr for Policy {
+  type Err = &'static str;
 
-    let start = string[0..dash_index].parse::<usize>().ok()?;
-    let end = string[dash_index + 1..space_index].parse::<usize>().ok()?;
-    let char = string[space_index + 1..colon_index].chars().next()?;
-    let password = string[colon_index + 2..].to_string();
+  fn from_str(s: &str) -> Result<Self, Self::Err> {
+    let parts: Vec<_> = s.split(' ').collect();
 
-    Some(Self { range: start..=end, char, password })
+    match parts.as_slice() {
+      [range, c, password] => {
+        let range_parts: Vec<_> = range.split('-').collect();
+
+        let range = range_parts[0].parse().unwrap()..=range_parts[1].parse().unwrap();
+
+        return Ok(Self {
+          range,
+          char: c.chars().next().unwrap(),
+          password: password.to_string(),
+        });
+      }
+      _ => Err("u dumb lol"),
+    }
   }
 }
