@@ -1,5 +1,5 @@
+use std::ops::RangeInclusive;
 use std::str::FromStr;
-use std::{num::ParseIntError, ops::RangeInclusive};
 
 pub struct Policy {
   // Inspired by https://github.com/silen-z/advent-of-code/blob/main/src/2020/day02.rs#L26
