@@ -1,4 +1,4 @@
-fn reverse_binary_search(xs: &[bool], range: u32) -> u32 {
+fn decode_binary_space(xs: &[bool], range: u32) -> u32 {
   let mut low = 0;
   let mut high = range - 1;
 
@@ -16,8 +16,10 @@ fn reverse_binary_search(xs: &[bool], range: u32) -> u32 {
 }
 
 pub fn decode_boarding_pass(pass: &str) -> u32 {
-  let row = reverse_binary_search(&pass.chars().take(7).map(|c| c == 'F').collect::<Vec<_>>(), 128);
-  let column = reverse_binary_search(&pass.chars().skip(7).map(|c| c == 'L').collect::<Vec<_>>(), 8);
+  let (row, column) = pass.split_at(7);
+
+  let row = decode_binary_space(&row.chars().map(|c| c == 'F').collect::<Vec<_>>(), 128);
+  let column = decode_binary_space(&column.chars().map(|c| c == 'L').collect::<Vec<_>>(), 8);
 
   row * 8 + column
 }
