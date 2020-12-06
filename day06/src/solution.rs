@@ -5,6 +5,7 @@ pub enum Part {
   Two,
 }
 
+// TODO: Can I make this function nicer?
 pub fn solve(groups: &[Vec<HashSet<char>>], part: Part) -> usize {
   groups
     .iter()

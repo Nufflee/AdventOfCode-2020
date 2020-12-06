@@ -10,6 +10,8 @@ pub fn solution(passports: &[HashMap<String, String>]) -> usize {
   valid_passports.count()
 }
 
+// TODO: Make the validation logic nicer by creating a mapping between the field and validator
+//       instead of this huge function.
 fn validate_passport_values(passport: &HashMap<String, String>) -> bool {
   match passport["byr"].parse::<u32>() {
     Ok(1920..=2002) => {}
