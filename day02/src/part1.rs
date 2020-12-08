@@ -1,4 +1,4 @@
-use super::parser::Policy;
+use crate::parser::Policy;
 
 pub fn solution(policies: &[Policy]) -> usize {
   policies

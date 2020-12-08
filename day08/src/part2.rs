@@ -1,5 +1,5 @@
-use super::vm;
-use super::vm::Instruction;
+use crate::vm;
+use crate::vm::Instruction;
 
 fn switch_instruction(instruction: Instruction) -> Instruction {
   match instruction {
