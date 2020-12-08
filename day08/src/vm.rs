@@ -43,6 +43,7 @@ pub struct ExecutionResult {
 pub fn execute(program: &[Instruction]) -> ExecutionResult {
   let mut accumulator = 0;
   let mut ip: usize = 0;
+  // TODO: Store this inside of instructions themselves.
   let mut ran_instructions: Vec<usize> = Vec::new();
   let mut infinite_loop_detected = false;
 
