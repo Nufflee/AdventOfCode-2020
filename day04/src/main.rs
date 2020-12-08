@@ -3,6 +3,7 @@ use std::fs;
 mod parser;
 mod part1;
 mod part2;
+mod validators;
 
 fn main() -> Result<(), std::io::Error> {
   let input_path = match std::env::args().nth(1).as_deref() {

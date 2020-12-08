@@ -1,6 +1,8 @@
 use std::collections::HashMap;
 
-pub fn parse_passport(passport_string: &str) -> HashMap<String, String> {
+pub type Passport = HashMap<String, String>;
+
+pub fn parse_passport(passport_string: &str) -> Passport {
   let pairs = passport_string.split_whitespace();
 
   pairs
