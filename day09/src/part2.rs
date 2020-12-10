@@ -9,6 +9,7 @@ pub fn solution(numbers: &[u64], preamble_length: usize) -> u64 {
   sequence.first().unwrap() + sequence.last().unwrap()
 }
 
+// TODO: Can this be done faster than O(n^2)
 fn find_contigous_sequence_that_sums_to<T>(target: T, numbers: &[T]) -> Option<Vec<T>>
 where
   T: PartialEq + PartialOrd + Add<Output = T> + Sum<T> + Copy,
