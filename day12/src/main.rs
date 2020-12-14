@@ -22,7 +22,7 @@ fn main() -> Result<(), std::io::Error> {
     part1::solution(&map)
   );
 
-  println!("Part 1:");
+  println!("Part 2:");
   println!(
     "\tShip is {:?} units away from the origin.",
     part2::solution(&map)
