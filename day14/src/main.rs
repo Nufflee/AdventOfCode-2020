@@ -6,7 +6,7 @@ mod part2;
 
 fn main() -> Result<(), std::io::Error> {
   let input_path = match std::env::args().nth(1).as_deref() {
-    Some("-e") => "input/example2.txt",
+    Some("-e") => "input/example.txt",
     _ => "input/test.txt",
   };
 
