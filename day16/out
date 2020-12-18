@@ -1,0 +1,457 @@
+Part 1:
+	Ticket scanning error rate is 24980.
+Part 2:
+190 tickets valid out of 240
+done with row 0 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 0 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 0 with Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }
+done with row 0 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 0 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 0 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 0 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 0 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 1 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 1 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 1 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 2 with Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }
+done with row 2 with Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }
+done with row 2 with Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }
+done with row 2 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 2 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 2 with Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }
+done with row 2 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 2 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 2 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 2 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 2 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 3 with Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }
+done with row 3 with Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }
+done with row 3 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 3 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 3 with Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }
+done with row 3 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 3 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 3 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 3 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 3 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 4 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 4 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 4 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 4 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 4 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 5 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 6 with Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }
+done with row 6 with Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }
+done with row 6 with Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }
+done with row 6 with Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }
+done with row 6 with Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }
+done with row 6 with Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }
+done with row 6 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 6 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 6 with Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }
+done with row 6 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 6 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 6 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 6 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 6 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 7 with Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }
+done with row 7 with Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }
+done with row 7 with Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }
+done with row 7 with Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }
+done with row 7 with Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }
+done with row 7 with Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }
+done with row 7 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 7 with Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }
+done with row 7 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 7 with Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }
+done with row 7 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 7 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 7 with Validator { name: "price", range1: 35..=692, range2: 706..=957 }
+done with row 7 with Validator { name: "route", range1: 36..=890, range2: 901..=951 }
+done with row 7 with Validator { name: "row", range1: 35..=282, range2: 288..=964 }
+done with row 7 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 7 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 7 with Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }
+done with row 7 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 8 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 8 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 8 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 8 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 8 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 8 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 9 with Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }
+done with row 9 with Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }
+done with row 9 with Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }
+done with row 9 with Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }
+done with row 9 with Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }
+done with row 9 with Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }
+done with row 9 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 9 with Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }
+done with row 9 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 9 with Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }
+done with row 9 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 9 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 9 with Validator { name: "price", range1: 35..=692, range2: 706..=957 }
+done with row 9 with Validator { name: "route", range1: 36..=890, range2: 901..=951 }
+done with row 9 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 9 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 9 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 10 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 10 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 11 with Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }
+done with row 11 with Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }
+done with row 11 with Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }
+done with row 11 with Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }
+done with row 11 with Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }
+done with row 11 with Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }
+done with row 11 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 11 with Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }
+done with row 11 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 11 with Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }
+done with row 11 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 11 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 11 with Validator { name: "price", range1: 35..=692, range2: 706..=957 }
+done with row 11 with Validator { name: "route", range1: 36..=890, range2: 901..=951 }
+done with row 11 with Validator { name: "row", range1: 35..=282, range2: 288..=964 }
+done with row 11 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 11 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 11 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 12 with Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }
+done with row 12 with Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }
+done with row 12 with Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }
+done with row 12 with Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }
+done with row 12 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 12 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 12 with Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }
+done with row 12 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 12 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 12 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 12 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 12 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 13 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 13 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 13 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 13 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 13 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 13 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 13 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 14 with Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }
+done with row 14 with Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }
+done with row 14 with Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }
+done with row 14 with Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }
+done with row 14 with Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }
+done with row 14 with Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }
+done with row 14 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 14 with Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }
+done with row 14 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 14 with Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }
+done with row 14 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 14 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 14 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 14 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 14 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 15 with Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }
+done with row 15 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 15 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 15 with Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }
+done with row 15 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 15 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 15 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 15 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 15 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 16 with Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }
+done with row 16 with Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }
+done with row 16 with Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }
+done with row 16 with Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }
+done with row 16 with Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }
+done with row 16 with Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }
+done with row 16 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 16 with Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }
+done with row 16 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 16 with Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }
+done with row 16 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 16 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 16 with Validator { name: "price", range1: 35..=692, range2: 706..=957 }
+done with row 16 with Validator { name: "route", range1: 36..=890, range2: 901..=951 }
+done with row 16 with Validator { name: "row", range1: 35..=282, range2: 288..=964 }
+done with row 16 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 16 with Validator { name: "train", range1: 45..=294, range2: 317..=968 }
+done with row 16 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 16 with Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }
+done with row 16 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 17 with Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }
+done with row 17 with Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }
+done with row 17 with Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }
+done with row 17 with Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }
+done with row 17 with Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }
+done with row 17 with Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }
+done with row 17 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 17 with Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }
+done with row 17 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 17 with Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }
+done with row 17 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 17 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 17 with Validator { name: "route", range1: 36..=890, range2: 901..=951 }
+done with row 17 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 17 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 17 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 18 with Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }
+done with row 18 with Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }
+done with row 18 with Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }
+done with row 18 with Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }
+done with row 18 with Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }
+done with row 18 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 18 with Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }
+done with row 18 with Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }
+done with row 18 with Validator { name: "class", range1: 32..=806, range2: 815..=959 }
+done with row 18 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 18 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 18 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+done with row 18 with Validator { name: "zone", range1: 30..=629, range2: 637..=968 }
+done with row 19 with Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }
+done with row 19 with Validator { name: "duration", range1: 38..=121, range2: 129..=958 }
+done with row 19 with Validator { name: "seat", range1: 35..=445, range2: 469..=954 }
+done with row 19 with Validator { name: "type", range1: 44..=240, range2: 265..=960 }
+remaining fields for Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }: [0, 2, 3, 6, 7, 9, 11, 12, 14, 15, 16, 17, 18]
+remaining fields for Validator { name: "class", range1: 32..=806, range2: 815..=959 }: [0, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18]
+remaining fields for Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }: [0, 2, 3, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18]
+remaining fields for Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }: [6, 7, 9, 11, 14, 16, 17]
+remaining fields for Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }: [6, 7, 9, 11, 12, 14, 16, 17, 18]
+remaining fields for Validator { name: "train", range1: 45..=294, range2: 317..=968 }: [16]
+Validator { name: "train", range1: 45..=294, range2: 317..=968 } is validator for row 16 fo sho
+remaining fields for Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }: [6, 7, 9, 11, 14, 17, 18]
+remaining fields for Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }: [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19]
+remaining fields for Validator { name: "price", range1: 35..=692, range2: 706..=957 }: [7, 9, 11]
+remaining fields for Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }: [2, 3, 6, 7, 9, 11, 12, 14, 15, 17, 18]
+remaining fields for Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }: [7, 9, 11, 14, 17]
+remaining fields for Validator { name: "type", range1: 44..=240, range2: 265..=960 }: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19]
+remaining fields for Validator { name: "row", range1: 35..=282, range2: 288..=964 }: [7, 11]
+remaining fields for Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }: [2, 6, 7, 9, 11, 12, 14, 17, 18]
+remaining fields for Validator { name: "route", range1: 36..=890, range2: 901..=951 }: [7, 9, 11, 17]
+remaining fields for Validator { name: "seat", range1: 35..=445, range2: 469..=954 }: [0, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 19]
+remaining fields for Validator { name: "duration", range1: 38..=121, range2: 129..=958 }: [0, 1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 19]
+remaining fields for Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }: [7]
+Validator { name: "wagon", range1: 32..=816, range2: 825..=971 } is validator for row 7 fo sho
+remaining fields for Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }: [2, 3, 6, 9, 11, 12, 14, 17, 18]
+remaining fields for Validator { name: "zone", range1: 30..=629, range2: 637..=968 }: [0, 2, 3, 6, 9, 11, 12, 13, 14, 15, 17, 18]
+remaining fields for Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }: [0, 2, 3, 6, 9, 11, 12, 14, 15, 17, 18]
+remaining fields for Validator { name: "class", range1: 32..=806, range2: 815..=959 }: [0, 2, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17, 18]
+remaining fields for Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }: [0, 2, 3, 6, 8, 9, 11, 12, 13, 14, 15, 17, 18]
+remaining fields for Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }: [6, 9, 11, 14, 17]
+remaining fields for Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }: [6, 9, 11, 12, 14, 17, 18]
+remaining fields for Validator { name: "train", range1: 45..=294, range2: 317..=968 }: []
+remaining fields for Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }: [6, 9, 11, 14, 17, 18]
+remaining fields for Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }: [0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19]
+remaining fields for Validator { name: "price", range1: 35..=692, range2: 706..=957 }: [9, 11]
+remaining fields for Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }: [2, 3, 6, 9, 11, 12, 14, 15, 17, 18]
+remaining fields for Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }: [9, 11, 14, 17]
+remaining fields for Validator { name: "type", range1: 44..=240, range2: 265..=960 }: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19]
+remaining fields for Validator { name: "row", range1: 35..=282, range2: 288..=964 }: [11]
+Validator { name: "row", range1: 35..=282, range2: 288..=964 } is validator for row 11 fo sho
+remaining fields for Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }: [2, 6, 9, 12, 14, 17, 18]
+remaining fields for Validator { name: "route", range1: 36..=890, range2: 901..=951 }: [9, 17]
+remaining fields for Validator { name: "seat", range1: 35..=445, range2: 469..=954 }: [0, 2, 3, 4, 6, 8, 9, 12, 13, 14, 15, 17, 18, 19]
+remaining fields for Validator { name: "duration", range1: 38..=121, range2: 129..=958 }: [0, 1, 2, 3, 4, 6, 8, 9, 12, 13, 14, 15, 17, 18, 19]
+remaining fields for Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }: []
+remaining fields for Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }: [2, 3, 6, 9, 12, 14, 17, 18]
+remaining fields for Validator { name: "zone", range1: 30..=629, range2: 637..=968 }: [0, 2, 3, 6, 9, 12, 13, 14, 15, 17, 18]
+remaining fields for Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }: [0, 2, 3, 6, 9, 12, 14, 15, 17, 18]
+remaining fields for Validator { name: "class", range1: 32..=806, range2: 815..=959 }: [0, 2, 3, 4, 6, 8, 9, 12, 13, 14, 15, 17, 18]
+remaining fields for Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }: [0, 2, 3, 6, 8, 9, 12, 13, 14, 15, 17, 18]
+remaining fields for Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }: [6, 9, 14, 17]
+remaining fields for Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }: [6, 9, 12, 14, 17, 18]
+remaining fields for Validator { name: "train", range1: 45..=294, range2: 317..=968 }: []
+remaining fields for Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }: [6, 9, 14, 17, 18]
+remaining fields for Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }: [0, 1, 2, 3, 4, 6, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19]
+remaining fields for Validator { name: "price", range1: 35..=692, range2: 706..=957 }: [9]
+Validator { name: "price", range1: 35..=692, range2: 706..=957 } is validator for row 9 fo sho
+remaining fields for Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }: [2, 3, 6, 12, 14, 15, 17, 18]
+remaining fields for Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }: [14, 17]
+remaining fields for Validator { name: "type", range1: 44..=240, range2: 265..=960 }: [0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 13, 14, 15, 17, 18, 19]
+remaining fields for Validator { name: "row", range1: 35..=282, range2: 288..=964 }: []
+remaining fields for Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }: [2, 6, 12, 14, 17, 18]
+remaining fields for Validator { name: "route", range1: 36..=890, range2: 901..=951 }: [17]
+Validator { name: "route", range1: 36..=890, range2: 901..=951 } is validator for row 17 fo sho
+remaining fields for Validator { name: "seat", range1: 35..=445, range2: 469..=954 }: [0, 2, 3, 4, 6, 8, 12, 13, 14, 15, 18, 19]
+remaining fields for Validator { name: "duration", range1: 38..=121, range2: 129..=958 }: [0, 1, 2, 3, 4, 6, 8, 12, 13, 14, 15, 18, 19]
+remaining fields for Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }: []
+remaining fields for Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }: [2, 3, 6, 12, 14, 18]
+remaining fields for Validator { name: "zone", range1: 30..=629, range2: 637..=968 }: [0, 2, 3, 6, 12, 13, 14, 15, 18]
+remaining fields for Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }: [0, 2, 3, 6, 12, 14, 15, 18]
+remaining fields for Validator { name: "class", range1: 32..=806, range2: 815..=959 }: [0, 2, 3, 4, 6, 8, 12, 13, 14, 15, 18]
+remaining fields for Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }: [0, 2, 3, 6, 8, 12, 13, 14, 15, 18]
+remaining fields for Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }: [6, 14]
+remaining fields for Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }: [6, 12, 14, 18]
+remaining fields for Validator { name: "train", range1: 45..=294, range2: 317..=968 }: []
+remaining fields for Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }: [6, 14, 18]
+remaining fields for Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }: [0, 1, 2, 3, 4, 6, 8, 10, 12, 13, 14, 15, 18, 19]
+remaining fields for Validator { name: "price", range1: 35..=692, range2: 706..=957 }: []
+remaining fields for Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }: [2, 3, 6, 12, 14, 15, 18]
+remaining fields for Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }: [14]
+Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 } is validator for row 14 fo sho
+remaining fields for Validator { name: "type", range1: 44..=240, range2: 265..=960 }: [0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 13, 15, 18, 19]
+remaining fields for Validator { name: "row", range1: 35..=282, range2: 288..=964 }: []
+remaining fields for Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }: [2, 6, 12, 18]
+remaining fields for Validator { name: "route", range1: 36..=890, range2: 901..=951 }: []
+remaining fields for Validator { name: "seat", range1: 35..=445, range2: 469..=954 }: [0, 2, 3, 4, 6, 8, 12, 13, 15, 18, 19]
+remaining fields for Validator { name: "duration", range1: 38..=121, range2: 129..=958 }: [0, 1, 2, 3, 4, 6, 8, 12, 13, 15, 18, 19]
+remaining fields for Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }: []
+remaining fields for Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }: [2, 3, 6, 12, 18]
+remaining fields for Validator { name: "zone", range1: 30..=629, range2: 637..=968 }: [0, 2, 3, 6, 12, 13, 15, 18]
+remaining fields for Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }: [0, 2, 3, 6, 12, 15, 18]
+remaining fields for Validator { name: "class", range1: 32..=806, range2: 815..=959 }: [0, 2, 3, 4, 6, 8, 12, 13, 15, 18]
+remaining fields for Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }: [0, 2, 3, 6, 8, 12, 13, 15, 18]
+remaining fields for Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }: [6]
+Validator { name: "departure date", range1: 41..=481, range2: 492..=953 } is validator for row 6 fo sho
+remaining fields for Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }: [12, 18]
+remaining fields for Validator { name: "train", range1: 45..=294, range2: 317..=968 }: []
+remaining fields for Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }: [18]
+Validator { name: "departure track", range1: 48..=212, range2: 233..=950 } is validator for row 18 fo sho
+remaining fields for Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }: [0, 1, 2, 3, 4, 8, 10, 12, 13, 15, 19]
+remaining fields for Validator { name: "price", range1: 35..=692, range2: 706..=957 }: []
+remaining fields for Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }: [2, 3, 12, 15]
+remaining fields for Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }: []
+remaining fields for Validator { name: "type", range1: 44..=240, range2: 265..=960 }: [0, 1, 2, 3, 4, 5, 8, 10, 12, 13, 15, 19]
+remaining fields for Validator { name: "row", range1: 35..=282, range2: 288..=964 }: []
+remaining fields for Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }: [2, 12]
+remaining fields for Validator { name: "route", range1: 36..=890, range2: 901..=951 }: []
+remaining fields for Validator { name: "seat", range1: 35..=445, range2: 469..=954 }: [0, 2, 3, 4, 8, 12, 13, 15, 19]
+remaining fields for Validator { name: "duration", range1: 38..=121, range2: 129..=958 }: [0, 1, 2, 3, 4, 8, 12, 13, 15, 19]
+remaining fields for Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }: []
+remaining fields for Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }: [2, 3, 12]
+remaining fields for Validator { name: "zone", range1: 30..=629, range2: 637..=968 }: [0, 2, 3, 12, 13, 15]
+remaining fields for Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }: [0, 2, 3, 12, 15]
+remaining fields for Validator { name: "class", range1: 32..=806, range2: 815..=959 }: [0, 2, 3, 4, 8, 12, 13, 15]
+remaining fields for Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }: [0, 2, 3, 8, 12, 13, 15]
+remaining fields for Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }: []
+remaining fields for Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }: [12]
+Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 } is validator for row 12 fo sho
+remaining fields for Validator { name: "train", range1: 45..=294, range2: 317..=968 }: []
+remaining fields for Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }: []
+remaining fields for Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }: [0, 1, 2, 3, 4, 8, 10, 13, 15, 19]
+remaining fields for Validator { name: "price", range1: 35..=692, range2: 706..=957 }: []
+remaining fields for Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }: [2, 3, 15]
+remaining fields for Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }: []
+remaining fields for Validator { name: "type", range1: 44..=240, range2: 265..=960 }: [0, 1, 2, 3, 4, 5, 8, 10, 13, 15, 19]
+remaining fields for Validator { name: "row", range1: 35..=282, range2: 288..=964 }: []
+remaining fields for Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }: [2]
+Validator { name: "departure time", range1: 38..=266, range2: 274..=955 } is validator for row 2 fo sho
+remaining fields for Validator { name: "route", range1: 36..=890, range2: 901..=951 }: []
+remaining fields for Validator { name: "seat", range1: 35..=445, range2: 469..=954 }: [0, 3, 4, 8, 13, 15, 19]
+remaining fields for Validator { name: "duration", range1: 38..=121, range2: 129..=958 }: [0, 1, 3, 4, 8, 13, 15, 19]
+remaining fields for Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }: []
+remaining fields for Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }: [3]
+Validator { name: "departure station", range1: 45..=101, range2: 118..=967 } is validator for row 3 fo sho
+remaining fields for Validator { name: "zone", range1: 30..=629, range2: 637..=968 }: [0, 13, 15]
+remaining fields for Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }: [0, 15]
+remaining fields for Validator { name: "class", range1: 32..=806, range2: 815..=959 }: [0, 4, 8, 13, 15]
+remaining fields for Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }: [0, 8, 13, 15]
+remaining fields for Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }: []
+remaining fields for Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }: []
+remaining fields for Validator { name: "train", range1: 45..=294, range2: 317..=968 }: []
+remaining fields for Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }: []
+remaining fields for Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }: [0, 1, 4, 8, 10, 13, 15, 19]
+remaining fields for Validator { name: "price", range1: 35..=692, range2: 706..=957 }: []
+remaining fields for Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }: [15]
+Validator { name: "departure location", range1: 42..=570, range2: 579..=960 } is validator for row 15 fo sho
+remaining fields for Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }: []
+remaining fields for Validator { name: "type", range1: 44..=240, range2: 265..=960 }: [0, 1, 4, 5, 8, 10, 13, 19]
+remaining fields for Validator { name: "row", range1: 35..=282, range2: 288..=964 }: []
+remaining fields for Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }: []
+remaining fields for Validator { name: "route", range1: 36..=890, range2: 901..=951 }: []
+remaining fields for Validator { name: "seat", range1: 35..=445, range2: 469..=954 }: [0, 4, 8, 13, 19]
+remaining fields for Validator { name: "duration", range1: 38..=121, range2: 129..=958 }: [0, 1, 4, 8, 13, 19]
+remaining fields for Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }: []
+remaining fields for Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }: []
+remaining fields for Validator { name: "zone", range1: 30..=629, range2: 637..=968 }: [0, 13]
+remaining fields for Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }: [0]
+Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 } is validator for row 0 fo sho
+remaining fields for Validator { name: "class", range1: 32..=806, range2: 815..=959 }: [4, 8, 13]
+remaining fields for Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }: [8, 13]
+remaining fields for Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }: []
+remaining fields for Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }: []
+remaining fields for Validator { name: "train", range1: 45..=294, range2: 317..=968 }: []
+remaining fields for Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }: []
+remaining fields for Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }: [1, 4, 8, 10, 13, 19]
+remaining fields for Validator { name: "price", range1: 35..=692, range2: 706..=957 }: []
+remaining fields for Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }: []
+remaining fields for Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }: []
+remaining fields for Validator { name: "type", range1: 44..=240, range2: 265..=960 }: [1, 4, 5, 8, 10, 13, 19]
+remaining fields for Validator { name: "row", range1: 35..=282, range2: 288..=964 }: []
+remaining fields for Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }: []
+remaining fields for Validator { name: "route", range1: 36..=890, range2: 901..=951 }: []
+remaining fields for Validator { name: "seat", range1: 35..=445, range2: 469..=954 }: [4, 8, 13, 19]
+remaining fields for Validator { name: "duration", range1: 38..=121, range2: 129..=958 }: [1, 4, 8, 13, 19]
+remaining fields for Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }: []
+remaining fields for Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }: []
+remaining fields for Validator { name: "zone", range1: 30..=629, range2: 637..=968 }: [13]
+Validator { name: "zone", range1: 30..=629, range2: 637..=968 } is validator for row 13 fo sho
+remaining fields for Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }: []
+remaining fields for Validator { name: "class", range1: 32..=806, range2: 815..=959 }: [4, 8]
+remaining fields for Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }: [8]
+Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 } is validator for row 8 fo sho
+remaining fields for Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }: []
+remaining fields for Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }: []
+remaining fields for Validator { name: "train", range1: 45..=294, range2: 317..=968 }: []
+remaining fields for Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }: []
+remaining fields for Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }: [1, 4, 10, 19]
+remaining fields for Validator { name: "price", range1: 35..=692, range2: 706..=957 }: []
+remaining fields for Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }: []
+remaining fields for Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }: []
+remaining fields for Validator { name: "type", range1: 44..=240, range2: 265..=960 }: [1, 4, 5, 10, 19]
+remaining fields for Validator { name: "row", range1: 35..=282, range2: 288..=964 }: []
+remaining fields for Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }: []
+remaining fields for Validator { name: "route", range1: 36..=890, range2: 901..=951 }: []
+remaining fields for Validator { name: "seat", range1: 35..=445, range2: 469..=954 }: [4, 19]
+remaining fields for Validator { name: "duration", range1: 38..=121, range2: 129..=958 }: [1, 4, 19]
+remaining fields for Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }: []
+remaining fields for Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }: []
+remaining fields for Validator { name: "zone", range1: 30..=629, range2: 637..=968 }: []
+remaining fields for Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }: []
+remaining fields for Validator { name: "class", range1: 32..=806, range2: 815..=959 }: [4]
+Validator { name: "class", range1: 32..=806, range2: 815..=959 } is validator for row 4 fo sho
+remaining fields for Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }: []
+remaining fields for Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }: []
+remaining fields for Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }: []
+remaining fields for Validator { name: "train", range1: 45..=294, range2: 317..=968 }: []
+remaining fields for Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }: []
+remaining fields for Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }: [1, 10, 19]
+remaining fields for Validator { name: "price", range1: 35..=692, range2: 706..=957 }: []
+remaining fields for Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }: []
+remaining fields for Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }: []
+remaining fields for Validator { name: "type", range1: 44..=240, range2: 265..=960 }: [1, 5, 10, 19]
+remaining fields for Validator { name: "row", range1: 35..=282, range2: 288..=964 }: []
+remaining fields for Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }: []
+remaining fields for Validator { name: "route", range1: 36..=890, range2: 901..=951 }: []
+remaining fields for Validator { name: "seat", range1: 35..=445, range2: 469..=954 }: [19]
+Validator { name: "seat", range1: 35..=445, range2: 469..=954 } is validator for row 19 fo sho
+remaining fields for Validator { name: "duration", range1: 38..=121, range2: 129..=958 }: [1]
+Validator { name: "duration", range1: 38..=121, range2: 129..=958 } is validator for row 1 fo sho
+remaining fields for Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }: []
+remaining fields for Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }: []
+remaining fields for Validator { name: "zone", range1: 30..=629, range2: 637..=968 }: []
+remaining fields for Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }: []
+remaining fields for Validator { name: "class", range1: 32..=806, range2: 815..=959 }: []
+remaining fields for Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }: []
+remaining fields for Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }: []
+remaining fields for Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }: []
+remaining fields for Validator { name: "train", range1: 45..=294, range2: 317..=968 }: []
+remaining fields for Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }: []
+remaining fields for Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }: [10]
+Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 } is validator for row 10 fo sho
+remaining fields for Validator { name: "price", range1: 35..=692, range2: 706..=957 }: []
+remaining fields for Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }: []
+remaining fields for Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }: []
+remaining fields for Validator { name: "type", range1: 44..=240, range2: 265..=960 }: [5]
+Validator { name: "type", range1: 44..=240, range2: 265..=960 } is validator for row 5 fo sho
+remaining fields for Validator { name: "row", range1: 35..=282, range2: 288..=964 }: []
+remaining fields for Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }: []
+remaining fields for Validator { name: "route", range1: 36..=890, range2: 901..=951 }: []
+remaining fields for Validator { name: "seat", range1: 35..=445, range2: 469..=954 }: []
+remaining fields for Validator { name: "duration", range1: 38..=121, range2: 129..=958 }: []
+remaining fields for Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }: []
+remaining fields for Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }: []
+remaining fields for Validator { name: "zone", range1: 30..=629, range2: 637..=968 }: []
+actually_fields_to_validator: {11: Validator { name: "row", range1: 35..=282, range2: 288..=964 }, 4: Validator { name: "class", range1: 32..=806, range2: 815..=959 }, 18: Validator { name: "departure track", range1: 48..=212, range2: 233..=950 }, 15: Validator { name: "departure location", range1: 42..=570, range2: 579..=960 }, 14: Validator { name: "arrival station", range1: 44..=738, range2: 762..=970 }, 6: Validator { name: "departure date", range1: 41..=481, range2: 492..=953 }, 10: Validator { name: "arrival location", range1: 32..=560, range2: 567..=951 }, 5: Validator { name: "type", range1: 44..=240, range2: 265..=960 }, 17: Validator { name: "route", range1: 36..=890, range2: 901..=951 }, 8: Validator { name: "arrival platform", range1: 40..=675, range2: 685..=949 }, 3: Validator { name: "departure station", range1: 45..=101, range2: 118..=967 }, 9: Validator { name: "price", range1: 35..=692, range2: 706..=957 }, 7: Validator { name: "wagon", range1: 32..=816, range2: 825..=971 }, 0: Validator { name: "arrival track", range1: 25..=320, range2: 344..=954 }, 13: Validator { name: "zone", range1: 30..=629, range2: 637..=968 }, 19: Validator { name: "seat", range1: 35..=445, range2: 469..=954 }, 16: Validator { name: "train", range1: 45..=294, range2: 317..=968 }, 1: Validator { name: "duration", range1: 38..=121, range2: 129..=958 }, 12: Validator { name: "departure platform", range1: 36..=374, range2: 394..=958 }, 2: Validator { name: "departure time", range1: 38..=266, range2: 274..=955 }}
+actually_fields_to_validator.len(): 20, j: 10
+	Solution is 1.
